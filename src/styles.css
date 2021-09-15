@@ -1,0 +1,95 @@
+body {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 400px;
+    background-color: #000000;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+
+  .content {
+      margin: auto;
+      width: 50%;
+      padding: 5rem;
+      margin-top: 5rem;
+      background-color: rgb(190, 22, 78);
+      border: .2rem solid #fada06;
+      border-radius: 2rem;
+  }
+  
+  .img-money{
+    width: 38%;
+    border-radius: .8rem;
+  }
+
+  .page-title {
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+
+  .input-content {
+      padding: 1rem 0 0;
+  }
+
+  .label-input {
+      text-align: center;
+      padding: .5rem;
+      right: 0;
+      background-color: #fada06;
+      color:rgb(190, 22, 78);
+      border-radius: .3rem 0 0 .3rem;
+  }
+  
+  .input-1 {
+    width: auto;
+    height: 1.8rem;
+    margin: 0;
+    margin-left: -.3rem;
+    border-radius: 0 .3rem .3rem 0;
+    border: .2em solid #fada06; ;
+  }
+
+  .convert-btn {
+      margin: 1.5rem 0;
+      width: 5.4rem;
+      height: 2.5rem;
+      background-color: white;
+      border: none;
+      border-radius: .3rem;
+  }
+
+  .convert-btn:hover {
+      background-color: #fada06;
+      color:rgb(190, 22, 78);
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+  .page-logo {
+    width: 8.2rem;
+    position: absolute;
+    top: 2.3rem;
+    right: .5rem;
+  }
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  h2 {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  

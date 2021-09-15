@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="content">
+            <img
+                class="img-money"
+                src="https://media.giphy.com/media/14SAx6S02Io1ThOlOY/giphy.gif?cid=ecf05e471tqeo6yx9b889mzqxx08odrv1te0zi85hbf11tyq&rid=giphy.gif&ct=g"
+                alt="image-money"
+            >
+            <h1 class="page-title">
+                Conversor de moedas
+            </h1>
+
+            <p class="page-subtitle">
+                Descubra os valores em Real / Dólar 
+
+
+            <div class="form-container">
+
+                <div class="input-content">
+                    <label class="label-input" for="moeda">Insira o valor</label>
+                    <input class="input-1" type="number" id="valor" size="2" />
+                </div>
+
+                <button class="convert-btn" type="submit" onclick="ConverteDolarToReal()">Converter USD/BRL</button>
+                <button class="convert-btn" type="submit" onclick="ConverteRealToDolar()">Converter BRL/USD</button>
+            </div>
+
+            <h2 id="valorConvertido"></h2>
+
+        </div>
+
+    </div>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo" alt="">
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+
+        <script type="text/javascript" src="./scripts.js"></script>
+</body>
+
+</html>
