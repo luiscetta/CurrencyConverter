@@ -4,7 +4,7 @@ function ConverteDolarToReal() {
     let valor = valorElemento.value;
     let valorEmDolarNumerico = parseFloat(valor);
   
-    let valorEmReal = Number(valorEmDolarNumerico * 5.24).toFixed(2);
+    let valorEmReal = Number((valorEmDolarNumerico * 5.24).toFixed(2));
     console.log(valorEmReal);
   
     let elementoValorConvertido = document.getElementById("valorConvertido");
@@ -19,7 +19,7 @@ function ConverteRealToDolar() {
   let values = elementValue.value;
   let valueInReal = parseFloat(values);
 
-  let valueInDolar = Number(valueInReal / 5.24).toFixed(2);
+  let valueInDolar = Number((valueInReal / 5.24).toFixed(2));
   console.log(valueInDolar);
 
   let convertedElementValue = document.getElementById("valorConvertido");
