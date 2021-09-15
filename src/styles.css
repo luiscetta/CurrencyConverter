@@ -42,8 +42,7 @@ body {
 
   .label-input {
       text-align: center;
-      padding: .5rem;
-      right: 0;
+      padding: .6rem;
       background-color: #fada06;
       color:rgb(190, 22, 78);
       border-radius: .3rem 0 0 .3rem;
@@ -55,7 +54,8 @@ body {
     margin: 0;
     margin-left: -.3rem;
     border-radius: 0 .3rem .3rem 0;
-    border: .2em solid #fada06; ;
+    border: .2em solid #fada06; 
+    outline: none;
   }
 
   .convert-btn {
